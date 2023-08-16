@@ -1,0 +1,397 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    border-bottom: 1px solid #FA0070;
+}
+ul
+{
+    list-style: none;
+}
+i
+{
+    color:#FA0070;
+    font-size: 20px;
+}
+i:hover{
+    color: #FA0070;
+}
+.nav-icons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.brand
+{
+    color:#FA0070;
+    font-weight: 600;
+    font-size: 36.4524px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    outline: #FA0070;
+}
+
+
+.buttons
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background:#FA0070;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+
+.button
+{
+color:#fff;
+width: 313px;
+height: 52px;
+
+/* tr */
+
+background: linear-gradient(100.14deg, #FA0070 6.38%, #FF0051 43.78%, #FF006B 84.43%);
+border-radius: 50px;
+border: none;
+}
+
+.button-md
+{
+    padding: 10px 50px;
+    color:#fff;
+    width: 179px;
+    height: 46px;
+    border: none;
+    background: linear-gradient(100.14deg, #FA0070 6.38%, #FF0051 43.78%, #FF006B 84.43%);
+    border-radius: 50px;
+}
+.button:hover{
+    background: #fff;
+    color:#FA0070;
+    border: 3px solid #FA0070;
+}
+
+.button-md:hover{
+    background: #fff;
+    color:#FA0070;
+    border: 3px solid #FA0070;
+}
+
+.sign-In-header
+{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*===================================================
+preverification page styles start here
+=====================================================*/
+
+.phone-number
+{
+    width: 184px;
+height: 36px;
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+text-align: center;
+
+color: #131313;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.flex-form
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.flex-form2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.select{
+
+    border:none;
+    border-bottom: 1px solid #555;
+    width: 30%;
+  
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #686868;
+
+
+}
+
+.phone-number-placeholder
+{ border: none;
+    width: 70%;
+    border-bottom: 1px solid #171717 ;
+font-weight:400;
+font-size:16px;
+line-height:24px;
+text-align: center;
+color:#171717;
+}
+
+.quote
+{
+   height: 36px;
+
+
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+
+}
+
+.continue-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/*==============================================
+
+===============================================*/
+
+/*=====================================================
+name.html styling
+======================================================*/
+
+.name-field
+{
+    background-color: #F7F7F7;
+} 
+
+/*==============================================
+
+===============================================*/
+
+/*==============================================
+profilephoto.html styling
+===============================================*/
+.img-container
+{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.photo-holder
+{
+    width: 198px;
+    height: 198px;
+    border-radius: 50%;
+    background: url('hamburger.png')no-repeat center center;
+    background-size: cover;
+    border: 1px solid #e2dfdf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.photo-file
+{
+    width: 90%;
+    background-color: #F7F7F7;
+    color: #FA0070;
+}
+
+/*==========================================
+hookup page
+=============================================*/
+
+.details
+{
+
+    display: flex;
+   
+}
+.details-holder
+{
+    background: url('hamburger.png') no-repeat center center;
+    background-size: cover;
+    height:75vh;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+
+   
+
+}
+.details-section
+{
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   color:#fff;
+   line-height: 20px;
+   
+}
+
+.choices
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+   
+}
+
+.round-btn
+{
+    background: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+   
+}
+
+.accept
+{
+    border: 2px solid rgb(21, 241, 58);
+   
+}
+
+.decline
+{
+    border: 2px solid #FA0070;
+   
+}
+
+/*========================================
+find.html
+================================*/
+
+.find
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+
+.find-icon-container
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px 0px #d4d3d3;
+}
+
+
+/*======================================
+request.html
+===============================*/
+
+.request
+{
+    border: 1px solid black;
+    box-shadow:0 5px 10px 0px #d4d3d3 ;
+    padding: 20px 10px;
+}
+
+/*==========================
+messages
+=========================*/
+
+.message
+{
+    padding: 10px 10px;
+    
+}
+
+/*===================
+people around
+====================*/
+
+.people
+{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-row: 2fr;
+}
